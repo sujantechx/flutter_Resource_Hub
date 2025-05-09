@@ -1,7 +1,7 @@
  import 'package:flutter/material.dart';
 import 'home_Ui/home.dart';
 import 'UI design/calculate_bmi.dart';
-import 'UI design/insnta_login.dart';
+// import 'UI design/insnta_login.dart';
 
 void main() {
   runApp( MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget{
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0xff0000ff)),
         useMaterial3: true
       ),
-      home: LoginPage(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
